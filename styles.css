@@ -28,6 +28,12 @@
       a:hover {
         text-decoration: underline !important;
       }
+
+      @media screen and (max-width: 600px) {
+        nav {
+          font-size: 23px;
+        }
+      }
       
       /* INTRO */
 
@@ -39,6 +45,13 @@
 
       .intro p mark {
         background-color: greenyellow;
+      }
+
+      @media screen and (max-width: 600px) {
+        .intro {
+          font-size: 19px;
+          text-align: left;
+        }
       }
 
       /* GRID */
@@ -63,6 +76,12 @@
 
       img:hover {
         transform: rotate(-4deg);
+      }
+
+      @media screen and (max-width: 600px) {
+        .grid-wrapper li {
+          padding: 0 20px;
+        }
       }
 
       /* FOOTER */
