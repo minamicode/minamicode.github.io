@@ -1,15 +1,10 @@
 "use strict"
 
-function sayHi() {
-	
-	let name = prompt("What is your name?", "");
+function callDateTime() {
+    let currentDate = (new Date()).toDateString();
+    let currentTime = (new Date()).toLocaleTimeString(); 
+    document.getElementById('clock').innerHTML=`${currentDate} ${currentTime}`;
+  }
+  
 
-	if (!name) {
-		alert("Hello, anonymous!");
-	} else {
-		alert(`Hello, ${name}!`);
-	}
-
-}
-
-sayHi();
+setInterval(function(){ callDateTime() }, 1000);
