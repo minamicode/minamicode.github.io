@@ -26,3 +26,9 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+
+@media screen and (min-width: 600px) {
+  div {
+    margin: 40px;
+  }
+}
