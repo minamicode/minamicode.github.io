@@ -27,6 +27,12 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
 @media screen and (min-width: 600px) {
   div {
     margin: 40px;
