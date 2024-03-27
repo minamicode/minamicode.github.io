@@ -19,6 +19,10 @@ a:link {
   text-decoration: none;
 }
 
+a[href^="mailto:"] {
+  color: #1FC8A9;
+}
+
 a:visited {
   color: #1FC8A9;
 }
